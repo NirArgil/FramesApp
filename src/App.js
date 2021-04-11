@@ -209,7 +209,7 @@ export default function App() {
                                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                         <div class="portfolio-item-caption-content text-center text-white" id="features"><i class="fas fa-expand-alt fa-5x"></i></div>
                                     </div>
-                                    <img class="Mimg-fluid" src={Frame1} alt="IMAGE" />
+                                    <img class="Mimg-fluid" src={Frame1} alt="GalleryIMAGE" />
                                 </div>
                             </div>
                             {/* <!-- Portfolio Item 2--> */}
@@ -218,7 +218,7 @@ export default function App() {
                                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                         <div class="portfolio-item-caption-content text-center text-white" id="features"><i class="fas fa-expand-alt fa-5x"></i></div>
                                     </div>
-                                    <img class="Mimg-fluid" src={Frame2} alt="IMAGE" />
+                                    <img class="Mimg-fluid" src={Frame2} alt="GalleryImage" />
                                 </div>
                             </div>         
                             {/* <!-- Portfolio Item 3--> */}
@@ -237,7 +237,7 @@ export default function App() {
                                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                         <div class="portfolio-item-caption-content text-center text-white" id="features"><i class="fas fa-expand-alt fa-5x"></i></div>
                                     </div>
-                                    <img class="img-fluid" src={Frame4} alt="IMAGE" />
+                                    <img class="img-fluid" src={Frame4} alt="GalleryImage" />
                                 </div>
                             </div>
                             {/* <!-- Portfolio Item 5--> */}
@@ -246,7 +246,7 @@ export default function App() {
                                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                         <div class="portfolio-item-caption-content text-center text-white" id="features"><i class="fas fa-expand-alt fa-5x"></i></div>
                                     </div>
-                                    <img class="img-fluid" src={Frame5} alt="IMAGE" />
+                                    <img class="img-fluid" src={Frame5} alt="GalleryImage" />
                                 </div>
                             </div>
                             {/* <!-- Portfolio Item 6--> */}
@@ -255,7 +255,7 @@ export default function App() {
                                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                         <div class="portfolio-item-caption-content text-center text-white" id="features"><i class="fas fa-expand-alt fa-5x"></i></div>
                                     </div>
-                                    <img class="img-fluid" src={Frame6} alt="IMAGE" />
+                                    <img class="img-fluid" src={Frame6} alt="GalleryImage" />
                                 </div>
                             </div>
                             
@@ -266,7 +266,7 @@ export default function App() {
                                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                         <div class="portfolio-item-caption-content text-center text-white" id="features"><i class="fas fa-expand-alt fa-5x"></i></div>
                                     </div>
-                                    <img class="img-fluid" src={Frame7} alt="IMAGE" />
+                                    <img class="img-fluid" src={Frame7} alt="GalleryImage" />
                                 </div>
                             </div>
                             {/* <!-- Portfolio Item 8--> */}
@@ -275,7 +275,7 @@ export default function App() {
                                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                         <div class="portfolio-item-caption-content text-center text-white" id="features"><i class="fas fa-expand-alt fa-5x"></i></div>
                                     </div>
-                                    <img class="img-fluid" src={Frame8} alt="IMAGE" />
+                                    <img class="img-fluid" src={Frame8} alt="GalleryImage" />
                                 </div>
                             </div>
                             {/* <!-- Portfolio Item 9--> */}
@@ -284,7 +284,7 @@ export default function App() {
                                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                         <div class="portfolio-item-caption-content text-center text-white" id="features"><i class="fas fa-expand-alt fa-5x"></i></div>
                                     </div>
-                                    <img class="img-fluid" src={Frame9} alt="IMAGE" />
+                                    <img class="img-fluid" src={Frame9} alt="GalleryImage" />
                                 </div>
                             </div>
                         
@@ -294,7 +294,7 @@ export default function App() {
                                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                         <div class="portfolio-item-caption-content text-center text-white" id="features"><i class="fas fa-expand-alt fa-5x"></i></div>
                                     </div>
-                                    <img class="img-fluid" src={Frame10} alt="IMAGE" />
+                                    <img class="img-fluid" src={Frame10} alt="GalleryImage" />
                                 </div>
                             </div>
                             {/* <!-- Portfolio Item 11--> */}
@@ -303,7 +303,7 @@ export default function App() {
                                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                         <div class="portfolio-item-caption-content text-center text-white" id="features"><i class="fas fa-expand-alt fa-5x"></i></div>
                                     </div>
-                                    <img class="img-fluid" src={Frame11} alt="IMAGE" />
+                                    <img class="img-fluid" src={Frame11} alt="GalleryImage" />
                                 </div>
                             </div>
                             {/* <!-- Portfolio Item 12--> */}
@@ -312,7 +312,7 @@ export default function App() {
                                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                         <div class="portfolio-item-caption-content text-center text-white" id="features"><i class="fas fa-expand-alt fa-5x"></i></div>
                                     </div>
-                                    <img class="img-fluid" src={Frame12} alt="IMAGE" />
+                                    <img class="img-fluid" src={Frame12} alt="GalleryImage" />
                                 </div>
                             </div>
                          
@@ -458,7 +458,7 @@ export default function App() {
                                                 <div class="divider-custom-line"></div>
                                             </div> */}
                                             {/* <!-- Portfolio Modal - Image--> */}
-                                            <img class="img-fluid rounded mb-3" src={Frame1} alt="IMAGE" />
+                                            <img class="img-fluid rounded mb-3" src={Frame1} alt="GalleryImage" />
                                             {/* <!-- Portfolio Modal - Text--> */}
                                             {/* <p class="mb-5"> asdasdasd.</p>
                                             <button class="btn btn-primary" data-dismiss="modal">
@@ -492,7 +492,7 @@ export default function App() {
                                                 <div class="divider-custom-line"></div>
                                             </div> */}
                                             {/* <!-- Portfolio Modal - Image--> */}
-                                            <img class="img-fluid rounded mb-3" src={Frame2} alt="IMAGE" />
+                                            <img class="img-fluid rounded mb-3" src={Frame2} alt="GalleryImage" />
                                             {/* <!-- Portfolio Modal - Text--> */}
                                             {/* <p class="mb-1"><Text tid="Modal2Head" /></p>
                                             <button class="btn btn-primary" data-dismiss="modal">
@@ -526,7 +526,7 @@ export default function App() {
                                                 <div class="divider-custom-line"></div>
                                             </div> */}
                                             {/* <!-- Portfolio Modal - Image--> */}
-                                            <img class="img-fluid rounded mb-3" src={Frame3} alt="IMAGE" />
+                                            <img class="img-fluid rounded mb-3" src={Frame3} alt="GalleryImage" />
                                             {/* <!-- Portfolio Modal - Text--> */}
                                             {/* <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                                             <button class="btn btn-primary" data-dismiss="modal">
@@ -560,7 +560,7 @@ export default function App() {
                                                 <div class="divider-custom-line"></div>
                                             </div> */}
                                             {/* <!-- Portfolio Modal - Image--> */}
-                                            <img class="img-fluid rounded mb-3" src={Frame4} alt="IMAGE" />
+                                            <img class="img-fluid rounded mb-3" src={Frame4} alt="GalleryImage" />
                                             {/* <!-- Portfolio Modal - Text--> */}
                                             {/* <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                                             <button class="btn btn-primary" data-dismiss="modal">
@@ -594,7 +594,7 @@ export default function App() {
                                                 <div class="divider-custom-line"></div>
                                             </div> */}
                                             {/* <!-- Portfolio Modal - Image--> */}
-                                            <img class="img-fluid rounded mb-3" src={Frame5} alt="IMAGE" />
+                                            <img class="img-fluid rounded mb-3" src={Frame5} alt="GalleryImage" />
                                             {/* <!-- Portfolio Modal - Text--> */}
                                             {/* <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                                             <button class="btn btn-primary" data-dismiss="modal">
@@ -628,7 +628,7 @@ export default function App() {
                                                 <div class="divider-custom-line"></div>
                                             </div> */}
                                             {/* <!-- Portfolio Modal - Image--> */}
-                                            <img class="img-fluid rounded mb-3" src={Frame6} alt="IMAGE" />
+                                            <img class="img-fluid rounded mb-3" src={Frame6} alt="GalleryImage" />
                                             {/* <!-- Portfolio Modal - Text--> */}
                                             {/* <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                                             <button class="btn btn-primary" data-dismiss="modal">
@@ -663,7 +663,7 @@ export default function App() {
                                                 <div class="divider-custom-line"></div>
                                             </div> */}
                                             {/* <!-- Portfolio Modal - Image--> */}
-                                            <img class="img-fluid rounded mb-3" src={Frame7} alt="IMAGE" />
+                                            <img class="img-fluid rounded mb-3" src={Frame7} alt="GalleryImage" />
                                             {/* <!-- Portfolio Modal - Text--> */}
                                             {/* <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                                             <button class="btn btn-primary" data-dismiss="modal">
@@ -698,7 +698,7 @@ export default function App() {
                                                 <div class="divider-custom-line"></div>
                                             </div> */}
                                             {/* <!-- Portfolio Modal - Image--> */}
-                                            <img class="img-fluid rounded mb-3" src={Frame8} alt="IMAGE" />
+                                            <img class="img-fluid rounded mb-3" src={Frame8} alt="GalleryImage" />
                                             {/* <!-- Portfolio Modal - Text--> */}
                                             {/* <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                                             <button class="btn btn-primary" data-dismiss="modal">
@@ -733,7 +733,7 @@ export default function App() {
                                                 <div class="divider-custom-line"></div>
                                             </div> */}
                                             {/* <!-- Portfolio Modal - Image--> */}
-                                            <img class="img-fluid rounded mb-3" src={Frame9} alt="IMAGE" />
+                                            <img class="img-fluid rounded mb-3" src={Frame9} alt="GalleryImage" />
                                             {/* <!-- Portfolio Modal - Text--> */}
                                             {/* <p class="mb-5">AAALorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                                             <button class="btn btn-primary" data-dismiss="modal">
@@ -767,7 +767,7 @@ export default function App() {
                                                 <div class="divider-custom-line"></div>
                                             </div> */}
                                             {/* <!-- Portfolio Modal - Image--> */}
-                                            <img class="img-fluid rounded mb-3" src={Frame10} alt="IMAGE" />
+                                            <img class="img-fluid rounded mb-3" src={Frame10} alt="GalleryImage" />
                                             {/* <!-- Portfolio Modal - Text--> */}
                                             {/* <p class="mb-5">AAALorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                                             <button class="btn btn-primary" data-dismiss="modal">
@@ -801,7 +801,7 @@ export default function App() {
                                                 <div class="divider-custom-line"></div>
                                             </div> */}
                                             {/* <!-- Portfolio Modal - Image--> */}
-                                            <img class="img-fluid rounded mb-3" src={Frame11} alt="IMAGE" />
+                                            <img class="img-fluid rounded mb-3" src={Frame11} alt="GalleryImage" />
                                             {/* <!-- Portfolio Modal - Text--> */}
                                             {/* <p class="mb-5">AAALorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                                             <button class="btn btn-primary" data-dismiss="modal">
@@ -835,7 +835,7 @@ export default function App() {
                                                 <div class="divider-custom-line"></div>
                                             </div> */}
                                             {/* <!-- Portfolio Modal - Image--> */}
-                                            <img class="img-fluid rounded mb-3" src={Frame12} alt="IMAGE" />
+                                            <img class="img-fluid rounded mb-3" src={Frame12} alt="GalleryImage" />
                                             {/* <!-- Portfolio Modal - Text--> */}
                                             {/* <p class="mb-5">AAALorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                                             <button class="btn btn-primary" data-dismiss="modal">
