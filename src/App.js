@@ -21,9 +21,9 @@ import axios from 'axios';
 import LanguageSelector from './components/LanguageSelector';
 import { Text, LanguageContext } from './containers/Language';
 
-// const API_KEY = process.env.REACT_APP_API_KEY;
-// const API_PLACE_ID = process.env.REACT_APP_PLACE_ID;
-// const API_URL = `https://www.google.com/maps/embed/v1/place?q=place_id:${API_PLACE_ID}&key=${API_KEY}&language=he`;
+const API_KEY = process.env.REACT_APP_API_KEY;
+const API_PLACE_ID = process.env.REACT_APP_PLACE_ID;
+const API_URL = `https://www.google.com/maps/embed/v1/place?q=place_id:${API_PLACE_ID}&key=${API_KEY}&language=he`;
 
 export default function App() {
     const { userLanguage } = useContext(LanguageContext);
@@ -385,8 +385,8 @@ export default function App() {
 
 
                         <div className="contactin">
-                            {/* <iframe title="Gmaps"  frameborder="0" loading="lazy" allowfullscreen width="100%" height="auto"
-                           src={API_URL} ></iframe>   */}
+                            <iframe title="Gmaps"  frameborder="0" loading="lazy" allowfullscreen width="100%" height="auto"
+                           src={API_URL} ></iframe>  
                         </div>
 
                     </div>
