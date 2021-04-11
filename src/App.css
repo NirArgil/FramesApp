@@ -11221,7 +11221,12 @@ a.text-dark:focus {
   .HebAbout {
     width: 372px;
     height: 361px;
-    margin-left: -16px !important;
+    margin-left: 39px !important;
+  }
+
+  .HebAbout p {
+    font-size: 21px !important;
+    font-weight: 300;
   }
 
   .EnAbout { 
