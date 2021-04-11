@@ -70,10 +70,10 @@ section {
 .LanguageSelectorSelect {
   border: none;
   font-size: 21px;
-  border: 1px solid black;
+  border: 1px solid white;
   background: transparent;
   padding: 1px 7px;
-  color: black;
+  color: #caf7e3;
   width: 100%;
   appearance: none;
 }  
@@ -81,11 +81,11 @@ section {
 .LanguageSelectorSelectHeb {
   border: none;
   font-size: 21px;
-  border: 1px solid black;
+  border: 1px solid white;
   background: transparent;
   padding: 1px 7px;
   margin-left: -21px;
-  color: black;
+  color: #caf7e3;
   width: 100%;
   appearance: none;
 }  
@@ -96,7 +96,7 @@ section {
 
 select:hover {
   cursor: pointer;
-  border: 1px solid white;
+  border: 1px solid #caf7e3;
 }   
 
 #contact {
@@ -733,6 +733,11 @@ mark,
   width: 500px;
 }
 
+.Mimg-fluid {
+  height: auto;
+  width: 100%;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -855,6 +860,11 @@ pre code {
   margin-left: -1.5rem;
 }
 
+.COLUMNRES {
+  display: flex;
+  width: 100%;
+  padding: 0 4px;
+}
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
@@ -6544,9 +6554,13 @@ a.close.disabled {
 .modal-body {
   position: relative;
   flex: 1 1 auto;
-  padding: 4rem 1rem 1rem;
+  padding: 1rem;
 }
 
+.TEXT {
+  margin-left: 700px;
+  margin-bottom: 140px;
+}
 .modal-footer {
   display: flex;
   flex-wrap: wrap;
@@ -7202,9 +7216,9 @@ a.close.disabled {
 }
 
 header {
-  background-image: url(./assets/img/portfolio/p.jpg);
+  background-image: url(./assets/img/portfolio/asd.jpg);
   background-size: cover;
-  height: 750px;
+  height: 790px;
 }
 
 #about {
@@ -11349,12 +11363,12 @@ a.text-dark:focus {
 }
 
 .divider-custom {
-  margin: 1.25rem 0 1.5rem;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 
 .divider-custom .divider-custom-line {
   width: 100%;
@@ -11512,11 +11526,11 @@ a.text-dark:focus {
 
 .masthead-subheading p {
   font-size: 2.1rem !important;
-  margin-right: 50px;
+  margin-right: 61px;
 }
 
 .masthead-subheading {
-  margin-top: -30px !important;
+  margin-top: 0px !important;
 }
 .masthead .masthead-avatar {
   width: 15rem;
@@ -11586,14 +11600,14 @@ a.text-dark:focus {
 }
 
 .portfolio-modal .portfolio-modal-title {
-  font-size: 2.25rem;
+  font-size: 1.0rem;
   line-height: 2rem;
 }
 
 @media (min-width: 992px) {
   .portfolio-modal .portfolio-modal-title {
-    font-size: 3rem;
-    line-height: 2.5rem;
+    font-size: 1.6rem;
+    line-height: 3rem;
   }
 }
 
