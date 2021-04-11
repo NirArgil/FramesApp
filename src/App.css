@@ -90,9 +90,9 @@ section {
   appearance: none;
 }  
 
-.LanguageSelectorSelect:focus{
+/* .LanguageSelectorSelect:focus{
   outline: none;
-} 
+}  */
 
 select:hover {
   cursor: pointer;
