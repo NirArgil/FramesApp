@@ -2,9 +2,13 @@
   "FirstHeader": "We Are",
   "Header": "Raphael",
   "SubHeader": "Frames & Art",
+
+  "MenuToggleBtn": "Menu ",
+
   "clickMe": "QQQ Click N Me",
   "aboutMe": "QQQ For more info about the author",
   "buttonClicked": "QQQ You clicked to button!",
+
   "OurServicesNav": "Our Services",
   "GalleryNav": "Gallery",
   "AboutUsNav": "About Us",

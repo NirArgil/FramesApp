@@ -102,8 +102,7 @@ export default function App() {
                         {/* <a class="navbar-brand js-scroll-trigger" href="#page-top">Raphael Frames & Art</a> */}
                         {/* <LanguageSelector /> */}
                         <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                            Menu
-                                <i class="fas fa-bars"></i>
+                            <Text tid="MenuToggleBtn" /><i class="fas fa-bars"></i>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarResponsive">
                             <ul class="navbar-nav">
