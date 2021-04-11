@@ -635,7 +635,7 @@ h6,
 }
 
 .EnMode {
- margin-left: 140px;
+ margin-left: 64px;
 }
 
 
@@ -11215,6 +11215,22 @@ a.text-dark:focus {
   border-bottom: 2px solid #1a252f;
   padding-top: 30px;
 }
+
+@media only screen and (max-width: 450px) { 
+  .HebAbout {
+    width: 372px;
+    height: 361px;
+    margin-left: 46px !important;
+  }
+
+  .EnAbout { 
+    width: 372px;
+    height: 361px;
+    margin-left: 41px;
+  }
+
+}
+
 .EnAbout { 
   width: 372px;
   height: 361px;
@@ -11572,6 +11588,41 @@ a.text-dark:focus {
 .weareEn {
   font-weight: 300;
   margin-right: 340px;
+}
+
+@media only screen and (max-width: 450px) {  
+  .weareEn {
+    font-weight: 300;
+    margin-right: 250px;
+  }
+
+  .HeaderEn {
+    font-size: 4rem;
+    line-height: 3rem;
+    letter-spacing: 3px;
+}
+
+  .HeaderHeb {
+  font-size: 5rem;
+  line-height: 3rem;
+  letter-spacing: 1px;
+}
+
+  .HebMode {
+  margin-right: 0px !important;
+  font-weight: 300;
+ }
+
+ .EnMode {
+  font-size: 1.8rem !important;
+  margin-left: 84px;
+  margin-top: -5px;
+  font-weight: 300;
+}
+ .logo img {
+  margin-left: 5px;
+}
+
 }
 .portfolio .portfolio-item {
   cursor: pointer;

@@ -128,7 +128,7 @@ export default function App() {
                         <h1 className={userLanguage === 'en' ? 'HeaderEn' : 'HeaderHeb'}><Text tid="Header" /></h1>
                         {/* <!-- Icon Divider--> */}
                         <div class="divider-custom divider-light">
-                            <div class="masthead-subheading">
+                            <div>
 
                                 <p className={userLanguage === 'en' ? 'EnMode' : 'HebMode'}><Text tid="SubHeader" /></p>
                             </div>
