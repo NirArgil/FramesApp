@@ -227,7 +227,7 @@ export default function App() {
                                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                         <div class="portfolio-item-caption-content text-center text-white" id="features"><i class="fas fa-expand-alt fa-5x"></i></div>
                                     </div>
-                                    <img class="Mimg-fluid" src={Frame3} alt="IMAGE " />
+                                    <img class="Mimg-fluid" src={Frame3} alt="GalleryImage" />
                                 </div>
                             </div>
                             
