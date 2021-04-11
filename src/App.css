@@ -631,6 +631,7 @@ h6,
 
 .HebMode {
  /* direction: rtl; */
+ line-height: 14px;
  margin-right: 250px !important;
 }
 
@@ -11220,7 +11221,7 @@ a.text-dark:focus {
   .HebAbout {
     width: 372px;
     height: 361px;
-    margin-left: 46px !important;
+    margin-left: -16px !important;
   }
 
   .EnAbout { 
@@ -11591,37 +11592,38 @@ a.text-dark:focus {
 }
 
 @media only screen and (max-width: 450px) {  
-  .weareEn {
-    font-weight: 300;
-    margin-right: 250px;
+    .weareEn {
+      font-weight: 300;
+      margin-right: 250px;
+    }
+
+    .HeaderEn {
+      font-size: 4rem;
+      line-height: 3rem;
+      letter-spacing: 3px;
   }
 
-  .HeaderEn {
-    font-size: 4rem;
+    .HeaderHeb {
+    font-size: 5rem;
     line-height: 3rem;
-    letter-spacing: 3px;
-}
+    letter-spacing: 1px;
+  }
 
-  .HeaderHeb {
-  font-size: 5rem;
-  line-height: 3rem;
-  letter-spacing: 1px;
-}
+    .HebMode {
+      margin-right: 148px !important;
+      font-weight: 300;
+      line-height: 18px;
+  }
 
-  .HebMode {
-  margin-right: 0px !important;
-  font-weight: 300;
- }
-
- .EnMode {
-  font-size: 1.8rem !important;
-  margin-left: 84px;
-  margin-top: -5px;
-  font-weight: 300;
-}
- .logo img {
-  margin-left: 5px;
-}
+  .EnMode {
+    font-size: 1.8rem !important;
+    margin-left: 84px;
+    margin-top: -5px;
+    font-weight: 300;
+  }
+  .logo img {
+    margin-left: 5px;
+  }
 
 }
 .portfolio .portfolio-item {
