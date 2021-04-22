@@ -429,13 +429,17 @@ export default function App() {
                     </div>
                 </footer>
                 {/* <!-- Copyright Section--> */}
-                <div class="copyright py-4 text-center text-white">
-                    <div class="container"><small>Copyright © NirArgil 2021 | באתר זה בוצעו התאמות נגישות עבור אנשים עם מוגבלויות.</small></div>
+                <div class="copyright py-3 text-center text-white">
+                    <div class="container">
+                        <small> <span class="AccessibilitySpan"> <Text tid="AccessibilityP" /></span>  <br />
+                     Copyright © NirArgil 2021 </small>
+                    </div>
                 </div>
                 {/* <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)--> */}
-                <div class="scroll-to-top d-lg-none position-fixed">
+                {/* <div class="scroll-to-top d-lg-none position-fixed">
                     <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a>
-                </div>
+                </div> */}
+                
                 {/* <!-- Portfolio Modals--> */}
                 {/* <!-- Portfolio Modal 1--> */}
                 <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">

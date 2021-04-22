@@ -11751,6 +11751,17 @@ form .row:first-child .floating-label-form-group {
   color: #fff;
 }
 
+.AccessibilitySpan:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 90px;
+  border-bottom: 1px solid #ffffff;
+  padding: 0;
+  margin-bottom: -23px;
+  margin-top: 3px;
+}
+
 .copyright {
   background-color: #1a252f;
 }

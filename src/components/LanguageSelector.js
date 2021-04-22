@@ -6,7 +6,6 @@ import { LanguageContext } from '../containers/Language';
 export default function LanguageSelector() {
   const { userLanguage, userLanguageChange } = useContext(LanguageContext);
 
-  // set selected language by calling context method
   const handleLanguageChange = e => userLanguageChange(e.target.value);
   
   return (
