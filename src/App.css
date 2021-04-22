@@ -140,10 +140,6 @@ select:hover {
   margin-left: 50px;
 }
 
-.contactin h1{
-  margin-left: 100px;
-}
-
 .contactin:nth-child(1) {
   flex: 30%;
   background: url(./assets/img/portfolio/23.jpg);
@@ -166,6 +162,7 @@ select:hover {
   color: #fff;
   font-weight: 500;
   margin-bottom: 20px;
+  margin-left: 100px;
 }
 
 .contactin h2 {
@@ -11439,9 +11436,9 @@ a.text-dark:focus {
 .btn-social {
   border-radius: 100%;
   display: inline-flex;
-  width: 3.25rem;
-  height: 3.25rem;
-  font-size: 1.25rem;
+  width: 3rem;
+  height: 3rem;
+  font-size: 2.1rem;
   justify-content: center;
   align-items: center;
 }
