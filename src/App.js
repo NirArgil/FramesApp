@@ -414,9 +414,9 @@ export default function App() {
                             {/* <!-- Footer Social Icons--> */}
                             <div class="col-lg-4 mb-5 mb-lg-0">
                                 <h4 class="mb-4"><Text tid="FooterCenter" /></h4>
-                                <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/RaphaelFramesandArt" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-facebook-f fa-2x"></i></a>
-                                <a class="btn btn-outline-light btn-social mx-1" href="https://www.google.co.il/" target="_blank" rel="noopener noreferrer"><i class="fab fa-google fa-2x"></i></a>
-                                <a class="btn btn-outline-light btn-social mx-1" href="mailto:Raphaeld442@gmail.com" target="_blank" rel="noopener noreferrer"><i class="far fa-envelope fa-2x"></i></a>
+                                <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/RaphaelFramesandArt" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-facebook-f"></i></a>
+                                <a class="btn btn-outline-light btn-social mx-1" href="https://www.google.co.il/" target="_blank" rel="noopener noreferrer"><i class="fab fa-google"></i></a>
+                                <a class="btn btn-outline-light btn-social mx-1" href="mailto:Raphaeld442@gmail.com" target="_blank" rel="noopener noreferrer"><i class="far fa-envelope"></i></a>
                             </div>
 
                             {/* <!-- Footer About Text--> */}
