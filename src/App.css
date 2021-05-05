@@ -4790,6 +4790,8 @@ input[type=button].btn-block {
 .navbar-nav .nav-link {
   padding-right: 0;
   padding-left: 0;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .navbar-nav .dropdown-menu {

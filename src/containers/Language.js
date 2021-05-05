@@ -4,20 +4,20 @@ import { languageOptions, dictionaryList } from '../languages';
 
 // create the language context with default selected language
 export const LanguageContext = createContext({
-  userLanguage: 'en',
-  dictionary: dictionaryList.en
+  userLanguage: 'heb',
+  dictionary: dictionaryList.heb
 });
 
 // it provides the language context to app
 export function LanguageProvider({ children }) {
   const defaultLanguage = window.localStorage.getItem('lang');
-  const [userLanguage, setUserLanguage] = useState(defaultLanguage || 'en');
+  const [userLanguage, setUserLanguage] = useState(defaultLanguage || 'heb');
 
   const provider = {
     userLanguage,
     dictionary: dictionaryList[userLanguage],
     userLanguageChange: selected => {
-      const newLanguage = languageOptions[selected] ? selected : 'en'
+      const newLanguage = languageOptions[selected] ? selected : 'heb'
       setUserLanguage(newLanguage);
       window.localStorage.setItem('lang', newLanguage);
     }

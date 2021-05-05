@@ -106,10 +106,10 @@ export default function App() {
                         </button>
                         <div class="collapse navbar-collapse" id="navbarResponsive">
                             <ul class="navbar-nav">
-                                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#services"><Text tid="OurServicesNav" /></a></li>
-                                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio"><Text tid="GalleryNav" /></a></li>
+                                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact"><Text tid="ContactUsNav" /></a></li>                                
                                 <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about"><Text tid="AboutUsNav" /></a></li>
-                                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact"><Text tid="ContactUsNav" /></a></li>
+                                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio"><Text tid="GalleryNav" /></a></li>
+                                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#services"><Text tid="OurServicesNav" /></a></li>
                             </ul>
                         </div>
                         <LanguageSelector />
@@ -150,7 +150,7 @@ export default function App() {
                         <h1><Text tid="OurServices" /></h1>
                         <div className="cen">
                             <div className="service">
-                                 <i class="far fa-image"></i>
+                                <i class="far fa-image"></i>
                                 <h2><Text tid="OurServicesH1" /></h2>
                                 <p><Text tid="OurServicesP1" /></p>
                             </div>
@@ -201,7 +201,7 @@ export default function App() {
                         <div class="divider-custom"> </div>
 
                         <div class="row justify-content-center">
-                        
+
                             {/* <!-- Portfolio Item 1--> */}
                             <div class="col-md-6 col-lg-3 mb-3">
                                 <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
@@ -219,7 +219,7 @@ export default function App() {
                                     </div>
                                     <img class="Mimg-fluid" src={Frame2} alt="GalleryImage" />
                                 </div>
-                            </div>         
+                            </div>
                             {/* <!-- Portfolio Item 3--> */}
                             <div class="col-md-6 col-lg-3 mb-3">
                                 <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
@@ -229,7 +229,7 @@ export default function App() {
                                     <img class="Mimg-fluid" src={Frame3} alt="GalleryImage " />
                                 </div>
                             </div>
-                            
+
                             {/* <!-- Portfolio Item 4--> */}
                             <div class="col-md-6 col-lg-3 mb-3">
                                 <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
@@ -257,8 +257,8 @@ export default function App() {
                                     <img class="img-fluid" src={Frame6} alt="GalleryImage" />
                                 </div>
                             </div>
-                            
-                            
+
+
                             {/* <!-- Portfolio Item 7--> */}
                             <div class="col-md-6 col-lg-3 mb-3">
                                 <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal7">
@@ -286,9 +286,9 @@ export default function App() {
                                     <img class="img-fluid" src={Frame9} alt="GalleryImage" />
                                 </div>
                             </div>
-                        
-                         {/* <!-- Portfolio Item 10--> */}
-                         <div class="col-md-6 col-lg-3 mb-3">
+
+                            {/* <!-- Portfolio Item 10--> */}
+                            <div class="col-md-6 col-lg-3 mb-3">
                                 <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal10">
                                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                         <div class="portfolio-item-caption-content text-center text-white" id="features"><i class="fas fa-expand-alt fa-5x"></i></div>
@@ -314,8 +314,8 @@ export default function App() {
                                     <img class="img-fluid" src={Frame12} alt="GalleryImage" />
                                 </div>
                             </div>
-                         
-                     </div>
+
+                        </div>
                     </div>
                 </section>
                 {/* <!-- About Section--> */}
@@ -384,8 +384,8 @@ export default function App() {
 
 
                         <div className="contactin">
-                            <iframe title="Gmaps"  frameborder="0" loading="lazy" allowfullscreen width="100%" height="auto"
-                           src={API_URL} ></iframe>  
+                            <iframe title="Gmaps" frameborder="0" loading="lazy" allowfullscreen width="100%" height="auto"
+                                src={API_URL} ></iframe>
                         </div>
 
                     </div>
@@ -439,7 +439,7 @@ export default function App() {
                 {/* <div class="scroll-to-top d-lg-none position-fixed">
                     <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a>
                 </div> */}
-                
+
                 {/* <!-- Portfolio Modals--> */}
                 {/* <!-- Portfolio Modal 1--> */}
                 <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
@@ -852,7 +852,7 @@ export default function App() {
                         </div>
                     </div>
                 </div>
-                
+
 
             </div>
         </div>
