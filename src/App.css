@@ -142,7 +142,7 @@ select:hover {
 
 .contactin:nth-child(1) {
   flex: 30%;
-  background: url(./assets/img/portfolio/23.jpg);
+  background: url(./assets/img/portfolio/23.jpeg);
   color: #fff;
   background-size: cover;
 }
@@ -7222,7 +7222,7 @@ header {
 }
 
 #about {
-  background-image: url(./assets/img/portfolio/9.jpg);
+  background-image: url(./assets/img/portfolio/9.jpeg);
   background-repeat: no-repeat;
   background-size: 1360px 640px;
   height: 640px;
