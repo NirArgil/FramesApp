@@ -387,10 +387,7 @@ export default function App() {
                             <iframe title="Gmaps" frameborder="0" loading="lazy" allowfullscreen width="100%" height="auto"
                                 src={API_URL} ></iframe>
                         </div>
-
                     </div>
-
-                    {/* </div> */}
 
                 </section>
                 {/* <!-- Footer--> */}
@@ -590,20 +587,9 @@ export default function App() {
                                         <div class="col-lg-8">
                                             {/* <!-- Portfolio Modal - Title--> */}
                                             <h2 class="portfolio-modal-title text-secondary mb-1" id="portfolioModal5Label"> <Text tid="Modal5Head" /> </h2>
-                                            {/* <!-- Icon Divider--> */}
-                                            {/* <div class="divider-custom">
-                                                <div class="divider-custom-line"></div>
-                                                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                                <div class="divider-custom-line"></div>
-                                            </div> */}
-                                            {/* <!-- Portfolio Modal - Image--> */}
+                                            
                                             <img class="img-fluid rounded mb-3" src={Frame5} alt="GalleryImage" />
-                                            {/* <!-- Portfolio Modal - Text--> */}
-                                            {/* <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                            <button class="btn btn-primary" data-dismiss="modal">
-                                                <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button> */}
+                                          
                                         </div>
                                     </div>
                                 </div>
@@ -624,20 +610,9 @@ export default function App() {
                                         <div class="col-lg-8">
                                             {/* <!-- Portfolio Modal - Title--> */}
                                             <h2 class="portfolio-modal-title text-secondary mb-1" id="portfolioModal6Label"> <Text tid="Modal6Head" /> </h2>
-                                            {/* <!-- Icon Divider--> */}
-                                            {/* <div class="divider-custom">
-                                                <div class="divider-custom-line"></div>
-                                                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                                <div class="divider-custom-line"></div>
-                                            </div> */}
-                                            {/* <!-- Portfolio Modal - Image--> */}
+                                           
                                             <img class="img-fluid rounded mb-3" src={Frame6} alt="GalleryImage" />
-                                            {/* <!-- Portfolio Modal - Text--> */}
-                                            {/* <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                            <button class="btn btn-primary" data-dismiss="modal">
-                                                <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button> */}
+                                           
                                         </div>
                                     </div>
                                 </div>
@@ -659,20 +634,9 @@ export default function App() {
                                         <div class="col-lg-8">
                                             {/* <!-- Portfolio Modal - Title--> */}
                                             <h2 class="portfolio-modal-title text-secondary mb-1" id="portfolioModal7Label"> <Text tid="Modal7Head" /> </h2>
-                                            {/* <!-- Icon Divider--> */}
-                                            {/* <div class="divider-custom">
-                                                <div class="divider-custom-line"></div>
-                                                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                                <div class="divider-custom-line"></div>
-                                            </div> */}
-                                            {/* <!-- Portfolio Modal - Image--> */}
+                                          
                                             <img class="img-fluid rounded mb-3" src={Frame7} alt="GalleryImage" />
-                                            {/* <!-- Portfolio Modal - Text--> */}
-                                            {/* <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                            <button class="btn btn-primary" data-dismiss="modal">
-                                                <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button> */}
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -694,20 +658,9 @@ export default function App() {
                                         <div class="col-lg-8">
                                             {/* <!-- Portfolio Modal - Title--> */}
                                             <h2 class="portfolio-modal-title text-secondary mb-1" id="portfolioModal8Label"><Text tid="Modal8Head" /></h2>
-                                            {/* <!-- Icon Divider--> */}
-                                            {/* <div class="divider-custom">
-                                                <div class="divider-custom-line"></div>
-                                                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                                <div class="divider-custom-line"></div>
-                                            </div> */}
-                                            {/* <!-- Portfolio Modal - Image--> */}
+                                          
                                             <img class="img-fluid rounded mb-3" src={Frame8} alt="GalleryImage" />
-                                            {/* <!-- Portfolio Modal - Text--> */}
-                                            {/* <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                            <button class="btn btn-primary" data-dismiss="modal">
-                                                <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button> */}
+                                        
                                         </div>
                                     </div>
                                 </div>
@@ -729,20 +682,9 @@ export default function App() {
                                         <div class="col-lg-8">
                                             {/* <!-- Portfolio Modal - Title--> */}
                                             <h2 class="portfolio-modal-title text-secondary mb-1" id="portfolioModal9Label"><Text tid="Modal9Head" /></h2>
-                                            {/* <!-- Icon Divider--> */}
-                                            {/* <div class="divider-custom">
-                                                <div class="divider-custom-line"></div>
-                                                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                                <div class="divider-custom-line"></div>
-                                            </div> */}
-                                            {/* <!-- Portfolio Modal - Image--> */}
+                                            
                                             <img class="img-fluid rounded mb-3" src={Frame9} alt="GalleryImage" />
-                                            {/* <!-- Portfolio Modal - Text--> */}
-                                            {/* <p class="mb-5">AAALorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                            <button class="btn btn-primary" data-dismiss="modal">
-                                                <i class="fas fa-times fa-fw"></i>
-                                                       Close Window
-                                                  </button> */}
+                                         
                                         </div>
                                     </div>
                                 </div>
@@ -763,20 +705,10 @@ export default function App() {
                                         <div class="col-lg-8">
                                             {/* <!-- Portfolio Modal - Title--> */}
                                             <h2 class="portfolio-modal-title text-secondary mb-1" id="portfolioModal10Label"><Text tid="Modal10Head" /></h2>
-                                            {/* <!-- Icon Divider--> */}
-                                            {/* <div class="divider-custom">
-                                                <div class="divider-custom-line"></div>
-                                                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                                <div class="divider-custom-line"></div>
-                                            </div> */}
+                                           
                                             {/* <!-- Portfolio Modal - Image--> */}
                                             <img class="img-fluid rounded mb-3" src={Frame10} alt="GalleryImage" />
-                                            {/* <!-- Portfolio Modal - Text--> */}
-                                            {/* <p class="mb-5">AAALorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                            <button class="btn btn-primary" data-dismiss="modal">
-                                                <i class="fas fa-times fa-fw"></i>
-                                                       Close Window
-                                                  </button> */}
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -797,20 +729,9 @@ export default function App() {
                                         <div class="col-lg-8">
                                             {/* <!-- Portfolio Modal - Title--> */}
                                             <h2 class="portfolio-modal-title text-secondary mb-1" id="portfolioModal11Label"><Text tid="Modal11Head" /></h2>
-                                            {/* <!-- Icon Divider--> */}
-                                            {/* <div class="divider-custom">
-                                                <div class="divider-custom-line"></div>
-                                                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                                <div class="divider-custom-line"></div>
-                                            </div> */}
-                                            {/* <!-- Portfolio Modal - Image--> */}
+                                           
                                             <img class="img-fluid rounded mb-3" src={Frame11} alt="GalleryImage" />
-                                            {/* <!-- Portfolio Modal - Text--> */}
-                                            {/* <p class="mb-5">AAALorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                            <button class="btn btn-primary" data-dismiss="modal">
-                                                <i class="fas fa-times fa-fw"></i>
-                                                       Close Window
-                                                  </button> */}
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -831,20 +752,9 @@ export default function App() {
                                         <div class="col-lg-8">
                                             {/* <!-- Portfolio Modal - Title--> */}
                                             <h2 class="portfolio-modal-title text-secondary mb-1" id="portfolioModal12Label"><Text tid="Modal12Head" /></h2>
-                                            {/* <!-- Icon Divider--> */}
-                                            {/* <div class="divider-custom">
-                                                <div class="divider-custom-line"></div>
-                                                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                                <div class="divider-custom-line"></div>
-                                            </div> */}
-                                            {/* <!-- Portfolio Modal - Image--> */}
+                                            
                                             <img class="img-fluid rounded mb-3" src={Frame12} alt="GalleryImage" />
-                                            {/* <!-- Portfolio Modal - Text--> */}
-                                            {/* <p class="mb-5">AAALorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                            <button class="btn btn-primary" data-dismiss="modal">
-                                                <i class="fas fa-times fa-fw"></i>
-                                                       Close Window
-                                                  </button> */}
+                                       
                                         </div>
                                     </div>
                                 </div>
