@@ -106,7 +106,7 @@ export default function App() {
                         </button>
                         <div class="collapse navbar-collapse" id="navbarResponsive">
                             <ul class="navbar-nav">
-                                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact"><Text tid="ContactUsNav" /></a></li>                                
+                                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact"><Text tid="ContactUsNav" /></a></li>
                                 <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about"><Text tid="AboutUsNav" /></a></li>
                                 <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio"><Text tid="GalleryNav" /></a></li>
                                 <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#services"><Text tid="OurServicesNav" /></a></li>
@@ -342,7 +342,7 @@ export default function App() {
                     <div class="contact-head">
                         <h1><Text tid="ContactUsNav" /></h1>
                     </div>
-                    {/* <div class="row"> */}
+
                     {/* <ContactForm/> */}
                     <div className="contactwrap">
                         <div className="contactin">
@@ -429,13 +429,9 @@ export default function App() {
                 <div class="copyright py-3 text-center text-white">
                     <div class="container">
                         <small> <span class="AccessibilitySpan"> <Text tid="AccessibilityP" /></span>  <br />
-                     Copyright © NirArgil 2021 </small>
+                            Copyright © NirArgil 2021 </small>
                     </div>
                 </div>
-                {/* <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)--> */}
-                {/* <div class="scroll-to-top d-lg-none position-fixed">
-                    <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a>
-                </div> */}
 
                 {/* <!-- Portfolio Modals--> */}
                 {/* <!-- Portfolio Modal 1--> */}
@@ -451,20 +447,9 @@ export default function App() {
                                         <div class="col-lg-8">
                                             {/* <!-- Portfolio Modal - Title--> */}
                                             <h2 class="portfolio-modal-title text-secondary mb-1" id="portfolioModal1Label"><Text tid="Modal1Head" /></h2>
-                                            {/* <!-- Icon Divider--> */}
-                                            {/* <div class="divider-custom">
-                                                <div class="divider-custom-line"></div>
-                                                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                                <div class="divider-custom-line"></div>
-                                            </div> */}
-                                            {/* <!-- Portfolio Modal - Image--> */}
+
                                             <img class="img-fluid rounded mb-3" src={Frame1} alt="GalleryImage" />
-                                            {/* <!-- Portfolio Modal - Text--> */}
-                                            {/* <p class="mb-5"> asdasdasd.</p>
-                                            <button class="btn btn-primary" data-dismiss="modal">
-                                                <i class="fas fa-times fa-fw"></i>
-                                                   Close Window
-                                    </button> */}
+
                                         </div>
                                     </div>
                                 </div>
@@ -485,20 +470,10 @@ export default function App() {
                                         <div class="col-lg-8">
                                             {/* <!-- Portfolio Modal - Title--> */}
                                             <h2 class="portfolio-modal-title text-secondary mb-1" id="portfolioModal2Label"> <Text tid="Modal2Head" /> </h2>
-                                            {/* <!-- Icon Divider--> */}
-                                            {/* <div class="divider-custom">
-                                                <div class="divider-custom-line"></div>
-                                                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                                <div class="divider-custom-line"></div>
-                                            </div> */}
+
                                             {/* <!-- Portfolio Modal - Image--> */}
                                             <img class="img-fluid rounded mb-3" src={Frame2} alt="GalleryImage" />
-                                            {/* <!-- Portfolio Modal - Text--> */}
-                                            {/* <p class="mb-1"><Text tid="Modal2Head" /></p>
-                                            <button class="btn btn-primary" data-dismiss="modal">
-                                                <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button> */}
+
                                         </div>
                                     </div>
                                 </div>
@@ -587,9 +562,9 @@ export default function App() {
                                         <div class="col-lg-8">
                                             {/* <!-- Portfolio Modal - Title--> */}
                                             <h2 class="portfolio-modal-title text-secondary mb-1" id="portfolioModal5Label"> <Text tid="Modal5Head" /> </h2>
-                                            
+
                                             <img class="img-fluid rounded mb-3" src={Frame5} alt="GalleryImage" />
-                                          
+
                                         </div>
                                     </div>
                                 </div>
@@ -610,9 +585,9 @@ export default function App() {
                                         <div class="col-lg-8">
                                             {/* <!-- Portfolio Modal - Title--> */}
                                             <h2 class="portfolio-modal-title text-secondary mb-1" id="portfolioModal6Label"> <Text tid="Modal6Head" /> </h2>
-                                           
+
                                             <img class="img-fluid rounded mb-3" src={Frame6} alt="GalleryImage" />
-                                           
+
                                         </div>
                                     </div>
                                 </div>
@@ -634,9 +609,9 @@ export default function App() {
                                         <div class="col-lg-8">
                                             {/* <!-- Portfolio Modal - Title--> */}
                                             <h2 class="portfolio-modal-title text-secondary mb-1" id="portfolioModal7Label"> <Text tid="Modal7Head" /> </h2>
-                                          
+
                                             <img class="img-fluid rounded mb-3" src={Frame7} alt="GalleryImage" />
-                                            
+
                                         </div>
                                     </div>
                                 </div>
@@ -658,9 +633,9 @@ export default function App() {
                                         <div class="col-lg-8">
                                             {/* <!-- Portfolio Modal - Title--> */}
                                             <h2 class="portfolio-modal-title text-secondary mb-1" id="portfolioModal8Label"><Text tid="Modal8Head" /></h2>
-                                          
+
                                             <img class="img-fluid rounded mb-3" src={Frame8} alt="GalleryImage" />
-                                        
+
                                         </div>
                                     </div>
                                 </div>
@@ -682,9 +657,9 @@ export default function App() {
                                         <div class="col-lg-8">
                                             {/* <!-- Portfolio Modal - Title--> */}
                                             <h2 class="portfolio-modal-title text-secondary mb-1" id="portfolioModal9Label"><Text tid="Modal9Head" /></h2>
-                                            
+
                                             <img class="img-fluid rounded mb-3" src={Frame9} alt="GalleryImage" />
-                                         
+
                                         </div>
                                     </div>
                                 </div>
@@ -705,10 +680,10 @@ export default function App() {
                                         <div class="col-lg-8">
                                             {/* <!-- Portfolio Modal - Title--> */}
                                             <h2 class="portfolio-modal-title text-secondary mb-1" id="portfolioModal10Label"><Text tid="Modal10Head" /></h2>
-                                           
+
                                             {/* <!-- Portfolio Modal - Image--> */}
                                             <img class="img-fluid rounded mb-3" src={Frame10} alt="GalleryImage" />
-                                            
+
                                         </div>
                                     </div>
                                 </div>
@@ -729,9 +704,9 @@ export default function App() {
                                         <div class="col-lg-8">
                                             {/* <!-- Portfolio Modal - Title--> */}
                                             <h2 class="portfolio-modal-title text-secondary mb-1" id="portfolioModal11Label"><Text tid="Modal11Head" /></h2>
-                                           
+
                                             <img class="img-fluid rounded mb-3" src={Frame11} alt="GalleryImage" />
-                                            
+
                                         </div>
                                     </div>
                                 </div>
@@ -752,9 +727,9 @@ export default function App() {
                                         <div class="col-lg-8">
                                             {/* <!-- Portfolio Modal - Title--> */}
                                             <h2 class="portfolio-modal-title text-secondary mb-1" id="portfolioModal12Label"><Text tid="Modal12Head" /></h2>
-                                            
+
                                             <img class="img-fluid rounded mb-3" src={Frame12} alt="GalleryImage" />
-                                       
+
                                         </div>
                                     </div>
                                 </div>
@@ -762,7 +737,6 @@ export default function App() {
                         </div>
                     </div>
                 </div>
-
 
             </div>
         </div>
