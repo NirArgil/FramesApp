@@ -1,14 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import { LanguageProvider } from './containers/Language';
-
+import LangContextProvider from './LangContext';
 
 ReactDOM.render(
-  <LanguageProvider>
+  <LangContextProvider>
     <React.StrictMode>
       <App />
     </React.StrictMode>
-  </LanguageProvider>,
+  </LangContextProvider>,
   document.getElementById('root')
 );

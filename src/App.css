@@ -7222,6 +7222,22 @@ header {
   height: 790px;
 }
 
+.langBtn p{
+  font-size: 1rem;
+  margin: 0!important;
+  padding: 0 !important;
+  color: #fff;
+}
+
+.MuiToggleButton-root {
+  border: 1px solid #fff !important;
+  padding: 5px !important;
+}
+
+.MuiToggleButton-root:hover {
+  border: 1px solid #caf7e3 !important;
+}
+
 #about {
   background-image: url(./assets/img/portfolio/9.webp);
   background-repeat: no-repeat;
