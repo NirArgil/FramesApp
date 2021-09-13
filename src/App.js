@@ -215,7 +215,7 @@ export default function App() {
                                     <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                         <div className="portfolio-item-caption-content text-center text-white" id="features"><i className="fas fa-expand-alt fa-5x"></i></div>
                                     </div>
-                                    <img className="Mimg-fluid" src={Frame1} alt="GalleryIMAGE" />
+                                    <img loading="lazy" className="Mimg-fluid" src={Frame1} alt="GalleryIMAGE" />
                                 </div>
                             </div>
                             {/* <!-- Portfolio Item 2--> */}
@@ -224,7 +224,7 @@ export default function App() {
                                     <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                         <div className="portfolio-item-caption-content text-center text-white" id="features"><i className="fas fa-expand-alt fa-5x"></i></div>
                                     </div>
-                                    <img className="Mimg-fluid" src={Frame2} alt="GalleryImage" />
+                                    <img loading="lazy" className="Mimg-fluid" src={Frame2} alt="GalleryImage" />
                                 </div>
                             </div>
                             {/* <!-- Portfolio Item 3--> */}
@@ -233,7 +233,7 @@ export default function App() {
                                     <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                         <div className="portfolio-item-caption-content text-center text-white" id="features"><i className="fas fa-expand-alt fa-5x"></i></div>
                                     </div>
-                                    <img className="Mimg-fluid" src={Frame3} alt="GalleryImage " />
+                                    <img loading="lazy" className="Mimg-fluid" src={Frame3} alt="GalleryImage " />
                                 </div>
                             </div>
 
@@ -243,7 +243,7 @@ export default function App() {
                                     <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                         <div className="portfolio-item-caption-content text-center text-white" id="features"><i className="fas fa-expand-alt fa-5x"></i></div>
                                     </div>
-                                    <img className="img-fluid" src={Frame4} alt="GalleryImage" />
+                                    <img loading="lazy" className="img-fluid" src={Frame4} alt="GalleryImage" />
                                 </div>
                             </div>
                             {/* <!-- Portfolio Item 5--> */}
@@ -252,7 +252,7 @@ export default function App() {
                                     <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                         <div className="portfolio-item-caption-content text-center text-white" id="features"><i className="fas fa-expand-alt fa-5x"></i></div>
                                     </div>
-                                    <img className="img-fluid" src={Frame5} alt="GalleryImage" />
+                                    <img loading="lazy" className="img-fluid" src={Frame5} alt="GalleryImage" />
                                 </div>
                             </div>
                             {/* <!-- Portfolio Item 6--> */}
@@ -261,7 +261,7 @@ export default function App() {
                                     <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                         <div className="portfolio-item-caption-content text-center text-white" id="features"><i className="fas fa-expand-alt fa-5x"></i></div>
                                     </div>
-                                    <img className="img-fluid" src={Frame6} alt="GalleryImage" />
+                                    <img loading="lazy" className="img-fluid" src={Frame6} alt="GalleryImage" />
                                 </div>
                             </div>
 
@@ -272,7 +272,7 @@ export default function App() {
                                     <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                         <div className="portfolio-item-caption-content text-center text-white" id="features"><i className="fas fa-expand-alt fa-5x"></i></div>
                                     </div>
-                                    <img className="img-fluid" src={Frame7} alt="GalleryImage" />
+                                    <img loading="lazy" className="img-fluid" src={Frame7} alt="GalleryImage" />
                                 </div>
                             </div>
                             {/* <!-- Portfolio Item 8--> */}
@@ -281,7 +281,7 @@ export default function App() {
                                     <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                         <div className="portfolio-item-caption-content text-center text-white" id="features"><i className="fas fa-expand-alt fa-5x"></i></div>
                                     </div>
-                                    <img className="img-fluid" src={Frame8} alt="GalleryImage" />
+                                    <img loading="lazy" className="img-fluid" src={Frame8} alt="GalleryImage" />
                                 </div>
                             </div>
                             {/* <!-- Portfolio Item 9--> */}
@@ -290,7 +290,7 @@ export default function App() {
                                     <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                         <div className="portfolio-item-caption-content text-center text-white" id="features"><i className="fas fa-expand-alt fa-5x"></i></div>
                                     </div>
-                                    <img className="img-fluid" src={Frame9} alt="GalleryImage" />
+                                    <img loading="lazy" className="img-fluid" src={Frame9} alt="GalleryImage" />
                                 </div>
                             </div>
 
@@ -300,7 +300,7 @@ export default function App() {
                                     <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                         <div className="portfolio-item-caption-content text-center text-white" id="features"><i className="fas fa-expand-alt fa-5x"></i></div>
                                     </div>
-                                    <img className="img-fluid" src={Frame10} alt="GalleryImage" />
+                                    <img loading="lazy" className="img-fluid" src={Frame10} alt="GalleryImage" />
                                 </div>
                             </div>
                             {/* <!-- Portfolio Item 11--> */}
@@ -309,7 +309,7 @@ export default function App() {
                                     <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                         <div className="portfolio-item-caption-content text-center text-white" id="features"><i className="fas fa-expand-alt fa-5x"></i></div>
                                     </div>
-                                    <img className="img-fluid" src={Frame11} alt="GalleryImage" />
+                                    <img loading="lazy" className="img-fluid" src={Frame11} alt="GalleryImage" />
                                 </div>
                             </div>
                             {/* <!-- Portfolio Item 12--> */}
@@ -318,7 +318,7 @@ export default function App() {
                                     <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                         <div className="portfolio-item-caption-content text-center text-white" id="features"><i className="fas fa-expand-alt fa-5x"></i></div>
                                     </div>
-                                    <img className="img-fluid" src={Frame12} alt="GalleryImage" />
+                                    <img loading="lazy" className="img-fluid" src={Frame12} alt="GalleryImage" />
                                 </div>
                             </div>
 
